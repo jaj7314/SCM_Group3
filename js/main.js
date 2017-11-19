@@ -230,7 +230,11 @@ $(document).ready(function () {
 		$.post('register.php',data, function(info){
 			if(info == 'success'){
 				$('#registererror').removeClass('is-visible');	
+<<<<<<< HEAD
 				window.location = "index.php";
+=======
+				window.location = "sentemail.php";
+>>>>>>> 9c1987af4675939961b7cb22752b78094f2e044a
 			}
 			else if (info == 'username'){
 				$('#registererror').html('The username already exists!!');

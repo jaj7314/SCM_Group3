@@ -23,7 +23,11 @@
                     <div class="menu-row">
                         <div class="menus" id="menu">
                             <div onclick="location.href='pasta.php'">
+<<<<<<< HEAD
                                 TEST
+=======
+                                MENU
+>>>>>>> 9c1987af4675939961b7cb22752b78094f2e044a
                             </div>
                             <ul>
                                 <li onclick="location.href='pasta.php'">Pasta</li>
@@ -32,10 +36,17 @@
                             </ul>
                         </div>
                         <div class="menus" onclick="location.href='promotion.php'">
+<<<<<<< HEAD
                             Testing
                         </div>
                         <div class="menus" onclick="location.href='about.php'">
                             Testing123
+=======
+                            PROMOTION
+                        </div>
+                        <div class="menus" onclick="location.href='about.php'">
+                            ABOUT US
+>>>>>>> 9c1987af4675939961b7cb22752b78094f2e044a
                         </div>  
                     </div>
                     <div class="login-row">
