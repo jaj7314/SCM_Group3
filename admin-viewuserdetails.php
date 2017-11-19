@@ -4,11 +4,7 @@
         include("onlyAdmin.php");
         $userid = $_GET['userid'];
         $query = "SELECT * FROM orders WHERE fk_user_id='$userid' ";
-<<<<<<< HEAD
-        $result = pg_query($conn, $query);
-=======
         $result = mysqli_query($conn, $query);
->>>>>>> 9c1987af4675939961b7cb22752b78094f2e044a
     ?>
 
     <html>
@@ -116,11 +112,7 @@
             </div>
             <div class="order-container">
                 <div class="txt-heading">User ID:&nbsp <?php echo $userid?> </div>
-<<<<<<< HEAD
-                <?php if (pg_num_rows($result) != 0) {
-=======
                 <?php if (mysqli_num_rows($result) != 0) {
->>>>>>> 9c1987af4675939961b7cb22752b78094f2e044a
                 ?>
                 <table cellpadding="10" cellspacing="1">
                     <tbody>
@@ -134,12 +126,7 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-<<<<<<< HEAD
-							$resultArr = pg_fetch_all($result);
-                            foreach($resultArr as $row){
-=======
                             while($row = mysqli_fetch_array($result)){
->>>>>>> 9c1987af4675939961b7cb22752b78094f2e044a
                                 $item_total = $item_total + $row['price'];
                                 ?>
                                         <tr>
