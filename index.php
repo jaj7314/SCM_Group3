@@ -23,7 +23,7 @@
                     <div class="menu-row">
                         <div class="menus" id="menu">
                             <div onclick="location.href='pasta.php'">
-                                TEST
+                                MENU
                             </div>
                             <ul>
                                 <li onclick="location.href='pasta.php'">Pasta</li>
@@ -32,10 +32,10 @@
                             </ul>
                         </div>
                         <div class="menus" onclick="location.href='promotion.php'">
-                            Testing
+                            PROMOTION
                         </div>
                         <div class="menus" onclick="location.href='about.php'">
-                            Testing123
+                            ABOUT US
                         </div>  
                     </div>
                     <div class="login-row">
