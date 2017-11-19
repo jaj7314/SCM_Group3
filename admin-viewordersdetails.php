@@ -6,8 +6,8 @@
         $orderid = $_GET['orderid'];
         $query = "SELECT quantity, subtotal, name, image, price FROM orders_line, products WHERE orders_line.fk_order_id ='$orderid' AND products.code IN (SELECT fk_product_code FROM orders_line WHERE fk_order_id = '$orderid') AND products.code = fk_product_code ";
         $addressquery = "SELECT * FROM address WHERE id = '$addressid'";
-        $result = mysqli_query($conn, $query);
-        $addressresult = mysqli_query($conn,$addressquery);
+        $result = pg_query($conn, $query);
+        $addressresult = pg_query($conn,$addressquery);
     ?>
 
     <html>
@@ -128,7 +128,7 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-                            while($row = mysqli_fetch_array($result)){
+                            while($row = pg_fetch_all($result)){
                                 ?>
                                         <tr>
                                             <td style="text-align:left;"><img style= "margin-right: 10px; height: 80px; width: 100px; vertical-align: text-top;" src= "<?php echo $row["image"] ?>"/><strong><?php echo $row["name"]; ?></strong></td>
@@ -166,7 +166,7 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-                            $addressrow = mysqli_fetch_array($addressresult);
+                            $addressrow = pg_fetch_all($addressresult);
                                 ?>
                                         <tr>
                                             <td stlye="text-align: right;"><?php echo $addressrow["address1"] ?></td>
