@@ -3,8 +3,8 @@
         include("db.php");
         include("noAdmin.php");
         $username = $_SESSION['username'];
-        $query = "SELECT * FROM orders WHERE (SELECT id FROM users WHERE username = '$username')";
-        $result = mysqli_query($conn, $query);
+        $query = "SELECT * FROM orders WHERE id =(SELECT id FROM users WHERE username = '$username')";
+        $result = pg_query($conn, $query);
     ?>
 
     <html>
@@ -198,7 +198,7 @@
             </div> <!-- cd-user-modal -->
             <div class="order-container">
                 <div class="txt-heading">VIEW ORDERS </div>
-                <?php if (mysqli_num_rows($result) != 0) {
+                <?php if (pg_num_rows($result) != 0) {
                 ?>
                 <table cellpadding="10" cellspacing="1">
                     <tbody>
@@ -211,7 +211,8 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-                            while($row = mysqli_fetch_array($result)){
+							$resultArr = pg_fetch_all($result);
+                            foreach($resultArr as $row){
                                 ?>
                                         <tr>
                                             <td style="text-align: center;"><strong><?php echo $row["id"]; ?></strong></td>
