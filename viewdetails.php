@@ -5,7 +5,7 @@
         $username = $_SESSION['username'];
         $orderid = $_GET['orderid'];
         $query = "SELECT quantity, subtotal, name, image, price FROM orders_line, products WHERE orders_line.fk_order_id ='$orderid' AND products.code IN (SELECT fk_product_code FROM orders_line WHERE fk_order_id = '$orderid') AND products.code = fk_product_code ";
-        $result = mysqli_query($conn, $query);
+        $result = pg_query($conn, $query);
         
     ?>
 
@@ -212,7 +212,8 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-                            while($row = mysqli_fetch_array($result)){
+							$resultArr = pg_fetch_all($result);
+                            foreach($resultArr as $row){
                                 ?>
                                         <tr>
                                             <td style="text-align:left;"><img style= "margin-right: 10px; height: 80px; width: 100px; vertical-align: text-top;" src= "<?php echo $row["image"] ?>"/><strong><?php echo $row["name"]; ?></strong></td>
