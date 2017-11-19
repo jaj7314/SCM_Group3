@@ -128,7 +128,7 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-                            $resultArr = pg_fetch_all($result);
+							$resultArr = pg_fetch_all($result);
                             foreach($resultArr as $row){
                                 ?>
                                         <tr>
@@ -167,7 +167,8 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-                            $addressrow = pg_fetch_all($addressresult);
+                            $resultArr = pg_fetch_all($addressresult);
+							foreach($resultArr as $addressrow){
                                 ?>
                                         <tr>
                                             <td stlye="text-align: right;"><?php echo $addressrow["address1"] ?></td>
@@ -180,6 +181,7 @@
                 </table>
               
                 <?php 
+							}
                 } else { ?>
                     <div style="padding-top: 20px; padding-left: 30px; font-size: 20px; color:red">Error</div>
 
