@@ -128,7 +128,8 @@
                         </tr>	
                         <?php		
                             $item_total = 0;
-                            while($row = pg_fetch_all($result)){
+                            $resultArr = pg_fetch_all($result);
+                            foreach($resultArr as $row){
                                 ?>
                                         <tr>
                                             <td style="text-align:left;"><img style= "margin-right: 10px; height: 80px; width: 100px; vertical-align: text-top;" src= "<?php echo $row["image"] ?>"/><strong><?php echo $row["name"]; ?></strong></td>
