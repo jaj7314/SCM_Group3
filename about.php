@@ -15,7 +15,7 @@
 	<style>
 	 .div1
 	 {
-		background: rgba(255,255,255, 0);
+		background: rgba(255,255,255);
 		width: 100%;
 		background-color: #D2FFFF;
 		border-collapse: collapse;
