@@ -56,7 +56,7 @@
 	}
 	#p3
 	{
-		font-size:18px;
+		font-size:16px;
 		font-weight: bold;
 	}
 	.Title{
