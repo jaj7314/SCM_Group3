@@ -17,7 +17,7 @@
 	 {
 		background: rgba(255,255,255);
 		width: 100%;
-		background-color: #D2FFFF;
+		background-color: #F5CFC7;
 		border-collapse: collapse;
 		
 	 }
@@ -26,7 +26,7 @@
 		background: rgba(255,255,255);
 		width: 100%;
 		height: 300px;
-		background-color: #D2FFFF;
+		background-color: #F5CFC7;
 		border-collapse: collapse;
 		
 	 }
@@ -34,7 +34,7 @@
 	 {
 		 background: rgba (255,255,255);
 		 width100%;
-		 background-color: #D2FFFF;
+		 background-color: #F5CFC7;
 	 }
 	
 	.p1
@@ -56,12 +56,12 @@
 	}
 	#p3
 	{
-		font-size:16px;
+		font-size:18px;
 		font-weight: bold;
 	}
 	.Title{
 		font-size: 46px;
-		color : #132982;
+		color : #A42F15;
 		font-family: Comic Sans MS;
 		font-weight: bold;
 		padding-top: 40px;
@@ -201,9 +201,11 @@
             <div class="div1">
             <p class="Title">About Us</p>
             <p class="p1">Crave Food Restaurant’s story is simple. We seek to tell our story through the food we serve. Our western food style restaurant was founded by Mr. Ben in year 2013. 
-                    Crave Food Restaurant has its reputable restaurant name since year 2014 because our popular Italian Pasta had achieved the <span style="color:red">Western Delicious Food Awards Malaysia 2014.</span> 
+                    Crave Food Restaurant has its reputable restaurant name since year 2014 because our popular Italian Pasta had achieved the <span style="color: red    ">Western Delicious Food Awards Malaysia 2014.</span> 
                     Our vision in these few years is to let our well-known western foods can be approached to our beloved customers as far as we can, we started the Online Food Ordering service which could let our delivery boy to send our all kinds of delicious western foods to your doorsteps. 
-                    We’ll keep our works up to serve our customers better. Thanks for supporting us! </p>
+                    We’ll keep our works up to serve our customers better. </p>
+					  <p class="Title">Our Vision</p>
+					   <p class="p1" style="padding-left:260px">Pastas For All : The most delicious well known pastas in Malaysia </p>
             </div>
             <div class="div2">
             <p class="Title" style="padding-bottom:40px">Our Location</p>
