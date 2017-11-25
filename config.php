@@ -1,5 +1,5 @@
 <?php
-$ENV = "SCM";
+$ENV = "MOBILEAPP";
 if($ENV == "SCM"){
   $HOST = 'ec2-54-221-207-143.compute-1.amazonaws.com';
   $PORT = '5432';
