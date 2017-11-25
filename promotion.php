@@ -87,11 +87,12 @@
 		height: 50px;
 		width: 200px;
 		font-size: 20px;
+		font-weight: bold;
 		padding: 10px;
 		margin-top:30px;
 		cursor: pointer;
-		color: white;
-		background-color: #29ad61;
+		color: black;
+		background-color: #CD5C5C;
 	}
 	</style>
 </head>
@@ -230,8 +231,8 @@
 					<img class="promotionimage" src="img/promotion1.jpg"></img>
 				</div>
 				<div class="descriptiondiv" >
-					<span style="font-weight:bold; font-size: 40px; color: rgb(183,183,0);">The Hottest Deal in Town with the Coolest Bonus is Here!</span><br/>
-					<span style="font-size:25px; color: white;">Enjoy 2 of your favorite pizzas fresh from the oven starting from RM30 & add on a bottle of your favorite Soft Drink at 50% off today!</span><br />
+					<span style="font-weight:bold; font-size: 40px; color:#E9967A;">The Hottest Deal in Town with the Coolest Bonus is Here!</span><br/>
+					<span style="font-size:25px; color:#F5CFC7  ;">Enjoy 2 of your favorite pizzas fresh from the oven starting from RM30 & add on a bottle of your favorite Soft Drink at 50% off today!</span><br />
 					<button class="button findoutmore">Find Out More</button>
 				</div>
 			</div>
@@ -240,8 +241,8 @@
 					<img class="promotionimage" src="img/promotion2.jpg"></img>
 				</div>
 				<div class="descriptiondiv" >
-					<span style="font-weight:bold; font-size: 40px; color: rgb(183,183,0);">Nut your average Chocolate Lava Cake</span><br/>
-					<span style="font-size:25px; color: white;">Sink your teeth into the molten peanut butter and chocolate mix of our NEW Peanut Butter Chocolate Lava Cake!</span><br />
+					<span style="font-weight:bold; font-size: 40px; color: #E9967A;">Nut your average Chocolate Lava Cake</span><br/>
+					<span style="font-size:25px; color:#F5CFC7;">Sink your teeth into the molten peanut butter and chocolate mix of our NEW Peanut Butter Chocolate Lava Cake!</span><br />
 					<button class="button findoutmore">Find Out More</button>
 				</div>
 			</div>
@@ -250,21 +251,40 @@
 					<img class="promotionimage" src="img/promotion3.jpg"></img>
 				</div>
 				<div class="descriptiondiv" >
-					<span style="font-weight:bold; font-size: 40px; color: rgb(183,183,0);">Quadruple the Choices with Quadruple the Taste</span><br/>
-					<span style="font-size:25px; color: white;">Mini Cinnadots, Cheesy Mozzarella Stix, Crazy Chicken Crunchies & Roasted Chicken Drummets all in one box to make the new Fabulous Four!</span><br />
+					<span style="font-weight:bold; font-size: 40px; color: #E9967A;">Quadruple the Choices with Quadruple the Taste</span><br/>
+					<span style="font-size:25px; color: #F5CFC7;">Mini Cinnadots, Cheesy Mozzarella Stix, Crazy Chicken Crunchies & Roasted Chicken Drummets all in one box to make the new Fabulous Four!</span><br />
 					<button class="button findoutmore">Find Out More</button>
 				</div>
 			</div>
+			
 			<div style="font-size: 0px;">
 				<div class="imagediv">
 					<img class="promotionimage" src="img/promotion4.jpg"></img>
 				</div>
 				<div class="descriptiondiv" >
-					<span style="font-weight:bold; font-size: 40px; color: rgb(183,183,0);">Two good two be true</span><br/>
-					<span style="font-size:25px; color: white;">You read that right! Get 2 Pizzas from only RM30 and enjoy big savings.</span><br />
+					<span style="font-weight:bold; font-size: 40px; color:#E9967A;">Two good two be true</span><br/>
+					<span style="font-size:25px; color:#F5CFC7;">You read that right! Get 2 Pizzas from only RM30 and enjoy big savings.</span><br />
 					<button class="button findoutmore">Find Out More</button>
 				</div>
-			</div>
+			</div
+			<div style="font-size: 0px;">
+				<div class="imagediv">
+					<img class="promotionimage" src="img/promotion5.jpg"></img>
+				</div>
+				<div class="descriptiondiv" >
+					<span style="font-weight:bold; font-size: 40px; color: #E9967A;">Forget Yesterday, It's Past-a-day </span><br/>
+					<span style="font-size:25px; color: #F5CFC7;">Try all our appetisers, salads, soups, pastas, fresh pastas and pizzas at ONE IRRESISTIBLE PRICE!</span><br />
+					<button class="button findoutmore">Find Out More</button>
+				</div>
+				<div style="font-size: 0px;">
+				<div class="imagediv">
+					<img class="promotionimage" src="img/promotion6.jpg"></img>
+				</div>
+				<div class="descriptiondiv" >
+					<span style="font-weight:bold; font-size: 40px; color: #E9967A;">OH LOOK ! It's Pasta Time </span><br/>
+					<span style="font-size:25px; color:#F5CFC7;">Take advantage of the great savings from Crave Food pasta happy hours. </span><br />
+					<button class="button findoutmore">Find Out More</button>
+				</div>
 		</div>
 		
 		<!-- footer -->
