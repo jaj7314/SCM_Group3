@@ -12,12 +12,6 @@ class DBController {
 	}	
 	
 	function connectDB() {
-		
-		  global $HOST;
-		  global $PORT;
-		  global $DATABASE_NAME;
-		  global $DATABASE_USER;
-		  global $DATABASE_PASSWORD;
 		$conn = pg_connect("host='$HOST' port='$PORT' dbname='$DATABASE_NAME' user='$DATABASE_USER' password='$DATABASE_PASSWORD'")
 		or die ("unable to connect database");
 		return $conn;
