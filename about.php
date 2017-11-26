@@ -233,7 +233,7 @@
                     
                     <div style="display: inline-block; vertical-align:top" >
                     <p id="p3"><b>Address:</b></p>
-                    <p class="p2">
+                    <p class="p3">
                     Crave Food Restaurant</br>
                     UMP Holding SDN BHD</br>
                     1st Floor</br>
