@@ -200,7 +200,7 @@
             <img src="img/interior.jpg" style=" height:420px; width:100%; display:block">
             <div class="div1">
             <p class="Title">About Us</p>
-            <p class="p1">Crave Food Restaurant’s story is simple. We seek to tell our story through the food we serve. Our western food style restaurant was founded by Mr. Ben in year 2013. 
+            <p class="p1">Crave Food Restaurant’s story is short and simple. We seek to tell our story through the food we serve. Our western food style restaurant was founded by Mr. Ben in year 2013. 
                     Crave Food Restaurant has its reputable restaurant name since year 2014 because our popular Italian Pasta had achieved the <span style="color: red    ">Western Delicious Food Awards Malaysia 2014.</span> 
                     Our vision in these few years is to let our well-known western foods can be approached to our beloved customers as far as we can, we started the Online Food Ordering service which could let our delivery boy to send our all kinds of delicious western foods to your doorsteps. 
                     We’ll keep our works up to serve our customers better. </p>
